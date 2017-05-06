@@ -24,6 +24,6 @@
 	"scripts": {
 		"build": "node build.js > data.json",
 		"test": "node test.js | tap-min",
-		"prepublishOnly": "npm test"
+		"prepublishOnly": "npm run build && npm test"
 	}
 }
