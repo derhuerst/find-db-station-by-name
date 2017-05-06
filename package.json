@@ -1,0 +1,26 @@
+{
+	"name":         "find-db-station-by-name",
+	"description":  "Try to find a DB station by its name.",
+	"version":      "0.1.0",
+	"main":         "index.js",
+	"files":        ["index.js", "english-states.json", "german-states.json"],
+	"keywords":     ["db", "deutsche bahn", "german railway", "public transport", "stations"],
+	"author":       "Jannis R <mail@jannisr.de>",
+	"homepage":     "https://github.com/derhuerst/find-db-station-by-name",
+	"repository":   "derhuerst/find-db-station-by-name",
+	"bugs":         "https://github.com/derhuerst/find-db-station-by-name/issues",
+	"license":      "ISC",
+	"engines":      {"node": ">=6"},
+	"dependencies": {
+		"leven": "^2.1.0",
+		"normalize-for-search": "^2.0.1"
+	},
+	"devDependencies": {
+		"tape": "^4.6.3",
+		"tap-min": "^1.2.1"
+	},
+	"scripts": {
+		"test": "node test.js | tap-min",
+		"prepublishOnly": "npm test"
+	}
+}
