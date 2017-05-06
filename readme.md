@@ -20,7 +20,10 @@ npm install find-db-station-by-name
 ```js
 const findStation = require('find-db-station-by-name')
 
-// todo
+findStation('Ahrensfelde') === '8011003' // upper case
+findStation('albstadt lautlingen') === '8000475' // spaces vs. dashes
+findStation('agathenbrug') === '8000434' // typo
+findStation('alt hüttendorf') === '8011011' // umlauts
 ```
 
 

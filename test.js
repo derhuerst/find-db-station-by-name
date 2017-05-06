@@ -14,8 +14,10 @@ test('data.json has normalized keys', (t) => {
 })
 
 test('works', (t) => {
-	// t.plan(6)
+	t.plan(4)
 
-	// todo
-	t.end()
+	t.equal(findStation('Ahrensfelde'), '8011003') // upper case
+	t.equal(findStation('albstadt lautlingen'), '8000475') // spaces vs. dashes
+	t.equal(findStation('agathenbrug'), '8000434') // typo
+	t.equal(findStation('alt hüttendorf'), '8011011') // umlauts
 })
