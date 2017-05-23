@@ -1,5 +1,7 @@
 # find-db-station-by-name
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/derhuerst/find-db-station-by-name.svg)](https://greenkeeper.io/)
+
 **Try to find a [DB](https://www.bahn.de/) station by its name.** Pulls the data from [`db-stations`](https://github.com/derhuerst/db-stations).
 
 [![npm version](https://img.shields.io/npm/v/find-db-station-by-name.svg)](https://www.npmjs.com/package/find-db-station-by-name)
