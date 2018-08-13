@@ -16,7 +16,7 @@
 		"normalize-for-search": "^2.0.1"
 	},
 	"devDependencies": {
-		"db-stations": "^2.0.0",
+		"db-stations": "^2.8.0",
 		"ndjson": "^1.5.0",
 		"tape": "^4.6.3",
 		"tap-min": "^1.2.1"
