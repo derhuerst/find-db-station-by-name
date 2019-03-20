@@ -19,7 +19,7 @@
 		"db-stations": "^2.0.0",
 		"ndjson": "^1.5.0",
 		"tape": "^4.6.3",
-		"tap-min": "^1.2.1"
+		"tap-min": "^2.0.0"
 	},
 	"scripts": {
 		"build": "node build.js > data.json",
